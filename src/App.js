@@ -1,18 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Header from './Header';
-import Switch from './Switch';
+import Clock from './Clock';
 import './bootstrap.min.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Header />
-        <Switch />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <Header />
+    <Clock />
+  </div>
+);
 
 export default App;

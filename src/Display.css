@@ -1,0 +1,16 @@
+.circle{
+    border-radius: 50%;
+    background-color: #282C34;
+    height: 220px;
+    width: 220px;
+    border: 17px solid #32363E;
+    color: #61DAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time{
+    font-size: 40px;
+    font-weight: bold;
+}
